@@ -47,19 +47,18 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "skk.moe",
-            "port": 2086,
+            "address": "104.17.25.1",
+            "port": 80,
             "users": [
               {
-                "id": "e3a2d288-c624-42eb-8791-63d2f97d347e",
+                "id": "3d668cbe-5464-4a79-aab5-e301b4e0f169",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
+                "security": "auto"
               }
             ]
           }
@@ -68,9 +67,9 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "zgl.zgl2024.workers.dev"
+            "Host": "dg.catnipballs.gay"
           }
         }
       },
@@ -94,14 +93,12 @@
       }
     }
   ],
-
-
-
-
-
-
-
-
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "8.8.8.8"
+    ]
+  },
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
@@ -110,53 +107,42 @@
         "inboundTag": [
           "api"
         ],
-        "outboundTag": "api",
-        "enabled": true
+        "outboundTag": "api"
       },
       {
-        "id": "4903912855803990739",
         "type": "field",
         "outboundTag": "direct",
         "domain": [
           "domain:example-example.com",
           "domain:example-example2.com"
-        ],
-        "enabled": true
+        ]
       },
       {
-        "id": "5708028511442260423",
         "type": "field",
         "outboundTag": "block",
         "domain": [
           "geosite:category-ads-all"
-        ],
-        "enabled": true
+        ]
       },
       {
-        "id": "5285280340381945458",
         "type": "field",
         "outboundTag": "direct",
         "domain": [
           "geosite:cn"
-        ],
-        "enabled": true
+        ]
       },
       {
-        "id": "5063426339087196734",
         "type": "field",
         "outboundTag": "direct",
         "ip": [
           "geoip:private",
           "geoip:cn"
-        ],
-        "enabled": true
+        ]
       },
       {
-        "id": "4919950405029472934",
         "type": "field",
         "port": "0-65535",
-        "outboundTag": "proxy",
-        "enabled": true
+        "outboundTag": "proxy"
       }
     ]
   }
