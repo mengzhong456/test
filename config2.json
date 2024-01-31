@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.25.1",
-            "port": 80,
+            "address": "cf.openxai.link",
+            "port": 8080,
             "users": [
               {
-                "id": "3d668cbe-5464-4a79-aab5-e301b4e0f169",
+                "id": "c18beb85-c67b-46ed-b8cc-4cbfeae5f194",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -67,9 +67,9 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "dg.catnipballs.gay"
+            "Host": "eu1.openxai.link"
           }
         }
       },
