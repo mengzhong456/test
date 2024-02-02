@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "skk.moe",
-            "port": 8880,
+            "address": "www.gco.gov.qa",
+            "port": 80,
             "users": [
               {
-                "id": "b35b8d49-e73e-4efa-afa6-027a0fafdd6c",
+                "id": "7c2a36af-bc90-4358-ac7a-bdab9b9b4599",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -70,7 +70,7 @@
         "wsSettings": {
           "path": "/?ed=2048",
           "headers": {
-            "Host": "zgm.zgm2024.workers.dev"
+            "Host": "megtp.zgm2024.workers.dev"
           }
         }
       },
