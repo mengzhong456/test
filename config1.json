@@ -47,19 +47,18 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "ip.sb",
-            "port": 2052,
+            "address": "104.21.83.10",
+            "port": 8080,
             "users": [
               {
-                "id": "36427787-2934-4652-9fe3-fc255fd29690",
+                "id": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
+                "security": "auto"
               }
             ]
           }
@@ -68,9 +67,9 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "zgl1.zgl2024.workers.dev"
+            "Host": "www.coldstone.club"
           }
         }
       },
