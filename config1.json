@@ -47,18 +47,19 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.21.83.10",
-            "port": 8080,
+            "address": "us1.uuuuu.fn-node.site",
+            "port": 8880,
             "users": [
               {
-                "id": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
+                "id": "b35b8d49-e73e-4efa-afa6-027a0fafdd6c",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none"
               }
             ]
           }
@@ -67,9 +68,9 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "www.coldstone.club"
+            "Host": "zgm.zgm2024.workers.dev"
           }
         }
       },
