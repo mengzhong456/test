@@ -47,18 +47,19 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "cf.openxai.link",
-            "port": 8080,
+            "address": "www.hugedomains.com",
+            "port": 2095,
             "users": [
               {
-                "id": "c18beb85-c67b-46ed-b8cc-4cbfeae5f194",
+                "id": "5c2dccdb-3ae7-4900-87f7-a97f380aa105",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none"
               }
             ]
           }
@@ -69,7 +70,7 @@
         "wsSettings": {
           "path": "/?ed=2048",
           "headers": {
-            "Host": "eu1.openxai.link"
+            "Host": "201411.mengyingming0.workers.dev"
           }
         }
       },
