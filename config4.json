@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.25.1",
+            "address": "104.16.77.74",
             "port": 80,
             "users": [
               {
-                "id": "551da9f1-d2dd-4c99-9643-fde91028c924",
+                "id": "7022982f-da4c-48c9-c660-b2315abdcf7e",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -67,9 +67,9 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "fgvpn.catnipballs.gay"
+            "Host": "my1.tooters.ir"
           }
         }
       },
