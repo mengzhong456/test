@@ -47,19 +47,18 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "ip.sb",
-            "port": 2052,
+            "address": "fastly.com",
+            "port": 80,
             "users": [
               {
-                "id": "36427787-2934-4652-9fe3-fc255fd29690",
+                "id": "66ccb11f-75a7-4282-8a60-31fed447401d",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
+                "security": "auto"
               }
             ]
           }
@@ -68,9 +67,9 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/?ed=2048",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "zgl1.zgl2024.workers.dev"
+            "Host": "nmsl.kp"
           }
         }
       },
