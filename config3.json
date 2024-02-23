@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fastly.com",
+            "address": "104.21.236.64",
             "port": 80,
             "users": [
               {
-                "id": "66ccb11f-75a7-4282-8a60-31fed447401d",
+                "id": "7022982f-da4c-48c9-c660-b2315abdcf7e",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -67,9 +67,9 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/aries?ed=2048",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "nmsl.kp"
+            "Host": "a.prapt5.ir"
           }
         }
       },
