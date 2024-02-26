@@ -47,18 +47,19 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.21.232.63",
-            "port": 80,
+            "address": "toy-people.com",
+            "port": 2082,
             "users": [
               {
-                "id": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+                "id": "5c2dccdb-3ae7-4900-87f7-a97f380aa105",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none"
               }
             ]
           }
@@ -69,7 +70,7 @@
         "wsSettings": {
           "path": "/?ed=2048",
           "headers": {
-            "Host": "a.prapt5.ir"
+            "Host": "201411.mengyingming0.workers.dev"
           }
         }
       },

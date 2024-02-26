@@ -47,18 +47,19 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.21.236.84",
-            "port": 80,
+            "address": "us1.uuuuu.fn-node.site",
+            "port": 8880,
             "users": [
               {
-                "id": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+                "id": "b35b8d49-e73e-4efa-afa6-027a0fafdd6c",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none"
               }
             ]
           }
@@ -69,7 +70,7 @@
         "wsSettings": {
           "path": "/?ed=2048",
           "headers": {
-            "Host": "a.prapt5.ir"
+            "Host": "zgm.zgm2024.workers.dev"
           }
         }
       },

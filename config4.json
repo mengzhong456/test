@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.231.59",
+            "address": "fastly.alipay.ovh",
             "port": 80,
             "users": [
               {
-                "id": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+                "id": "66ccb11f-75a7-4282-8a60-31fed447401d",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -67,9 +67,9 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/?ed=2048",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "a.prapt5.ir"
+            "Host": "nmsl.kp"
           }
         }
       },
