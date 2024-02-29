@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ip.sb",
+            "address": "steamdb.info",
             "port": 2052,
             "users": [
               {
-                "id": "36427787-2934-4652-9fe3-fc255fd29690",
+                "id": "5c2dccdb-3ae7-4900-87f7-a97f380aa105",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -70,7 +70,7 @@
         "wsSettings": {
           "path": "/?ed=2048",
           "headers": {
-            "Host": "zgl1.zgl2024.workers.dev"
+            "Host": "201411.mengyingming0.workers.dev"
           }
         }
       },

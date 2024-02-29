@@ -51,7 +51,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.225.66",
+            "address": "104.21.69.44",
             "port": 80,
             "users": [
               {
@@ -67,9 +67,9 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/?ed=2048&Telegram🇨🇳@WangCai_8",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "a.prapt5.ir"
+            "Host": "a.prapt4.ir"
           }
         }
       },

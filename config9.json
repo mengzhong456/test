@@ -51,8 +51,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "japan.com",
-            "port": 2086,
+            "address": "toy-people.com",
+            "port": 2082,
             "users": [
               {
                 "id": "5c2dccdb-3ae7-4900-87f7-a97f380aa105",
