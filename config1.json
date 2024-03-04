@@ -47,18 +47,19 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.21.69.44",
-            "port": 80,
+            "address": "steamdb.info",
+            "port": 443,
             "users": [
               {
-                "id": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+                "id": "c02692ee-383e-4056-8fd1-93f211858ff5",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none"
               }
             ]
           }
@@ -66,10 +67,17 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "zgm2025.pages.dev",
+          "fingerprint": "randomized",
+          "show": false
+        },
         "wsSettings": {
           "path": "/?ed=2048",
           "headers": {
-            "Host": "a.prapt4.ir"
+            "Host": "zgm2025.pages.dev"
           }
         }
       },
