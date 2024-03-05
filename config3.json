@@ -47,18 +47,19 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.21.231.35",
-            "port": 80,
+            "address": "185.148.104.95",
+            "port": 443,
             "users": [
               {
-                "id": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+                "id": "66a0f35b-80fe-49c4-bbd6-39ba568dc920",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none"
               }
             ]
           }
@@ -66,10 +67,17 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org",
+          "fingerprint": "random",
+          "show": false
+        },
         "wsSettings": {
-          "path": "/?ed=2048",
+          "path": "/zgm2026.mjl.workers.dev/proxyIP=proxyip.fxxk.dedyn.io",
           "headers": {
-            "Host": "a.prapt5.ir"
+            "Host": "ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org"
           }
         }
       },

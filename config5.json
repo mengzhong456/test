@@ -47,18 +47,19 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "s1c.v2.v001sss.xyz",
-            "port": 2082,
+            "address": "www.udemy.com",
+            "port": 2052,
             "users": [
               {
-                "id": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+                "id": "e3a2d288-c624-42eb-8791-63d2f97d347e",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none"
               }
             ]
           }
@@ -67,8 +68,10 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/",
-          "headers": {}
+          "path": "/?ed=2048",
+          "headers": {
+            "Host": "zgl.zgl2024.workers.dev"
+          }
         }
       },
       "mux": {

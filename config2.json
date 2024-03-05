@@ -51,14 +51,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.228.22",
-            "port": 80,
+            "address": "cao.pp.ua",
+            "port": 2052,
             "users": [
               {
-                "id": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+                "id": "0f73f90f-6b6a-4bfc-aa7b-3b6321ebc63d",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "none"
               }
             ]
           }
@@ -67,9 +67,9 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/?ed=2048",
+          "path": "/www.chenlan.top:443/35d5ef49ce?ed=2048",
           "headers": {
-            "Host": "a.prapt5.ir"
+            "Host": "zgm2024.zgm2024.workers.dev"
           }
         }
       },

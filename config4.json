@@ -47,18 +47,19 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.21.31.244",
-            "port": 8080,
+            "address": "ip.sb",
+            "port": 2095,
             "users": [
               {
-                "id": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
+                "id": "e3a2d288-c624-42eb-8791-63d2f97d347e",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none"
               }
             ]
           }
@@ -67,9 +68,9 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "www.nahck.site"
+            "Host": "zgl.zgl2024.workers.dev"
           }
         }
       },
