@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.udemy.com",
-            "port": 2052,
+            "address": "154.83.2.6",
+            "port": 443,
             "users": [
               {
-                "id": "e3a2d288-c624-42eb-8791-63d2f97d347e",
+                "id": "66a0f35b-80fe-49c4-bbd6-39ba568dc920",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -67,10 +67,17 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com",
+          "fingerprint": "random",
+          "show": false
+        },
         "wsSettings": {
-          "path": "/?ed=2048",
+          "path": "/zgm2026.mjl.workers.dev/proxyIP=proxyip.fxxk.dedyn.io",
           "headers": {
-            "Host": "zgl.zgl2024.workers.dev"
+            "Host": "2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com"
           }
         }
       },
