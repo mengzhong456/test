@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "steamdb.info",
+            "address": "185.176.26.135",
             "port": 443,
             "users": [
               {
-                "id": "c02692ee-383e-4056-8fd1-93f211858ff5",
+                "id": "66a0f35b-80fe-49c4-bbd6-39ba568dc920",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -70,14 +70,14 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "zgm2025.pages.dev",
-          "fingerprint": "randomized",
+          "serverName": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com",
+          "fingerprint": "random",
           "show": false
         },
         "wsSettings": {
-          "path": "/?ed=2048",
+          "path": "/zgm2026.mjl.workers.dev/proxyIP=proxyip.fxxk.dedyn.io",
           "headers": {
-            "Host": "zgm2025.pages.dev"
+            "Host": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
           }
         }
       },
