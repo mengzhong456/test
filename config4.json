@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ip.sb",
-            "port": 2095,
+            "address": "45.131.211.54",
+            "port": 443,
             "users": [
               {
-                "id": "e3a2d288-c624-42eb-8791-63d2f97d347e",
+                "id": "66a0f35b-80fe-49c4-bbd6-39ba568dc920",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -67,10 +67,17 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com",
+          "fingerprint": "random",
+          "show": false
+        },
         "wsSettings": {
-          "path": "/?ed=2048",
+          "path": "/zgm2026.mjl.workers.dev/proxyIP=proxyip.fxxk.dedyn.io",
           "headers": {
-            "Host": "zgl.zgl2024.workers.dev"
+            "Host": "5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com"
           }
         }
       },

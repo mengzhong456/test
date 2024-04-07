@@ -47,18 +47,19 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "cao.pp.ua",
-            "port": 2052,
+            "address": "45.133.247.180",
+            "port": 443,
             "users": [
               {
-                "id": "0f73f90f-6b6a-4bfc-aa7b-3b6321ebc63d",
+                "id": "66a0f35b-80fe-49c4-bbd6-39ba568dc920",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "none"
+                "security": "auto",
+                "encryption": "none"
               }
             ]
           }
@@ -66,10 +67,17 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com",
+          "fingerprint": "random",
+          "show": false
+        },
         "wsSettings": {
-          "path": "/www.chenlan.top:443/35d5ef49ce?ed=2048",
+          "path": "/zgm2026.mjl.workers.dev/proxyIP=proxyip.fxxk.dedyn.io",
           "headers": {
-            "Host": "zgm2024.zgm2024.workers.dev"
+            "Host": "547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com"
           }
         }
       },
